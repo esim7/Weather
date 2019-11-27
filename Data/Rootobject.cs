@@ -1,0 +1,13 @@
+﻿using System;
+
+namespace Data
+{
+    public class Rootobject
+    {
+        public string cod { get; set; }
+        public int message { get; set; }
+        public int cnt { get; set; }
+        public List[] list { get; set; }
+        public City city { get; set; }
+    }              
+}
